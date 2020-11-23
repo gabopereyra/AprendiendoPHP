@@ -8,8 +8,8 @@
   echo $num;
   echo "<hr>";
 
-  if ($num < 50) {
-    echo "Es menor a 50";
+  if ($num <= 50) {
+    echo "Es menor o igual a 50";
   } else {
     echo "Es mayor a 50";
   }
