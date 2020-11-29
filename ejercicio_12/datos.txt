@@ -1,0 +1,6 @@
+Gabriel
+Probando la generacion de un TXT, y su guardado.
+--------------------------------------------------------
+Gabriel
+Probando con codigo concatenado
+--------------------------------------------------------
