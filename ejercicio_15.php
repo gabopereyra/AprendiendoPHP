@@ -5,7 +5,7 @@
 </head>
 
 <body>
-<h1>FUNCIONES</h1>
+<h1 style="text-align:center; color: blue" >FUNCIONES</h1>
 <hr>
 <p>Primer ejemplo</p>
 <p>Funcion para mostrar un titulo (h3) centrado</p>
