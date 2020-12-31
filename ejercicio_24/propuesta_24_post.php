@@ -43,7 +43,7 @@
 </form>
     <?php
     } else
-        echo "No existe alumno con dicho mail";
+        echo "No existe alumno con dicho código";
     ?>
 </body>
 
