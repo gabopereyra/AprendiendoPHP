@@ -13,8 +13,8 @@
         die("Problemas en el select:" . mysqli_error($conexion));
 
         while ($reg = mysqli_fetch_array($registros)) {
-            echo "<hr>";
             echo "Alumno:" . $reg['nombre'] . "<br>";
+            echo "<hr>";
         }
     mysqli_close($conexion);
     ?>
