@@ -35,18 +35,15 @@ else
     echo "Curso: " . $reg['nombrecurso'] . "<br>";
     echo "<hr>";
   }
-  if ($inicio == 0)
-    echo "anteriores ";
-  else {
+  if (!$inicio == 0) {
     $anterior = $inicio - 2;
-    echo "<a href=\"ejercicio_27.php?pos=$anterior\">Anteriores </a>";
+    echo "<a href=\"ejercicio_27.php?pos=$anterior\">Anteriores</a>";
   }
   if ($impresos == 2) {
     $proximo = $inicio + 2;
     echo "<a href=\"ejercicio_27.php?pos=$proximo\">Siguientes</a>";
-  } else
-    echo "siguientes";
-  mysqli_close($conexion);
+  }
+   mysqli_close($conexion);
   ?>
 
 </body>
